@@ -1,7 +1,9 @@
-import 'package:bloc/bloc.dart';
+
 import 'package:bookly/Features/Home/data/Repos/Home_repo.dart';
 import 'package:bookly/Features/Home/data/model/book_model/book_model.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:bloc/bloc.dart';
 
 part 'featured_book_cubit_state.dart';
 
